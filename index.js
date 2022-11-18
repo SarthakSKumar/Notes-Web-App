@@ -11,12 +11,12 @@ app.use(cors())
 app.use(express.json())
 
 // Mongoose to MongoDB
-const uri = process.env.MONGODB_URI
-mongoose.connect(uri, {useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true})
+const uri = process.env.MONGODB_URI || "mongodb+srv://sarthakskumar:9742913699@notes-web-app.x3ycmcm.mongodb.net/?retryWrites=true&w=majority"
+mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true })
 
 const db = mongoose.connection
 db.on('error', console.error.bind(console, 'connection error:'));
-db.once('open', function() {
+db.once('open', function () {
   console.log("Connected to database")
 });
 
@@ -30,9 +30,9 @@ app.use("/api", notesRoutes)
 // For deployment
 app.use(express.static(path.join(__dirname, 'build')));
 app.get('/*', (req, res) => {
-res.sendFile(path.join(__dirname, 'build', 'index.html'));
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
 app.listen(port, () => {
-    console.log("Server runnin on port 3000")
+  console.log("Server runnin on port 3000")
 })
