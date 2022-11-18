@@ -1,13 +1,14 @@
 {
-  "name": "server",
+  "name": "Notes App",
   "version": "1.0.0",
-  "description": "Server for notes app",
+  "description": "Notes App. Sem 3 Web Technologies Project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
-  "author": "Radolf Lasa",
-  "license": "ISC",
+  "author": "Sarthak S Kumar",
+  "license": "none",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
