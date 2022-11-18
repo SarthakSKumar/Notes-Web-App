@@ -18,7 +18,7 @@
             };
             var s = function () {
                 var e = (new Date).getFullYear();
-                return o.a.createElement("footer", null, o.a.createElement("p", null, "", " ", ""))
+                return o.a.createElement("footer", null, o.a.createElement("p", null, "Sarthak S Kumar - ", "Satyam Kumar - ", "Sathish Kumar"))
             },
                 f = n(43),
                 d = n.n(f),
