@@ -17,6 +17,7 @@ https://note-taking-web-app.herokuapp.com/
 ## Authors
 
 * **Sarthak S Kumar** - [Sarthak S Kumar](https://github.com/SarthakSKumar)
+* **Satyam Kumar** - [Satyam Kumar](https://github.com/satyamksharma)
 * **Sathish Kumar G** - [Sathish Kumar G](https://github.com/sathishkumarg5024)
 
 
