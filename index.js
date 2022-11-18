@@ -16,7 +16,7 @@ mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true, useCrea
 const db = mongoose.connection
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function () {
-  console.log("Connected to database")
+  console.log("Connected to remote database (MongoDB)")
 });
 
 // Variables
@@ -33,5 +33,9 @@ app.get('/*', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log("Express Server running on port 5000")
+  console.log("\n-----------NOTE-TAKING WEB APP-----------")
+  console.log("   CSE Sem-3 Web Technologies Project\n")
+  console.log(":) Sarthak S Kumar\n:) Sathyam Kumar\n:) Sathish Kumar G")
+  console.log("-----------------------------------------")
+  console.log("Express server running on port 5000 (Local Deployment PORT)")
 })
