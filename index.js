@@ -9,7 +9,6 @@ const app = express()
 // Middlewares
 app.use(cors())
 app.use(express.json())
-
 // Mongoose to MongoDB
 const uri = process.env.MONGODB_URI || "mongodb+srv://sarthakskumar:<password>@notes-web-app.x3ycmcm.mongodb.net/?retryWrites=true&w=majority";
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true })
