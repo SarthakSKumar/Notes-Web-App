@@ -1,10 +1,10 @@
 # Notes App
 
-Note taking app built with React
+Note taking app built using MERN Stack
 
 ## Deployed
 
-https://flodardevnotesapp.herokuapp.com/
+https://note-taking-web-app.herokuapp.com/
 
 ## Built With
 
@@ -16,9 +16,7 @@ https://flodardevnotesapp.herokuapp.com/
 
 ## Authors
 
-* **Radolf Lasa** - *Initial work* - [flodardev](https://github.com/flodardev)
+* **Sarthak S Kumar** - [Sarthak S Kumar](https://github.com/SarthakSKumar)
 
 
-## Acknowledgments
-
-* Part of The Complete 2020 Web Development Bootcamp by London App Brewery
+## CSE Sem-3 Web Technologies Project, November 2022
