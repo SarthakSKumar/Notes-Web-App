@@ -21,6 +21,7 @@ https://note-taking-web-app.herokuapp.com/
 
 ## How to run 
 
+- First install nodejs and mongo db on your computer.
 - Fork the repo by clicking on the fork option from the top right corner.
 - Copy the link from the code option in the repo. 
 - Open the terminal on your pc and open the directory in which you want to open the files.(use cd {directory} )
