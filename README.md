@@ -19,6 +19,16 @@ https://note-taking-web-app.herokuapp.com/
 -   [React.js](https://reactjs.org/) - A JavaScript library for building user interfaces
 -   [Node.js](https://reactjs.org/) - JavaScript runtime
 
+## How to run 
+
+- Fork the repo by clicking on the fork option from the top right corner.
+- Copy the link from the code option in the repo. 
+- Open the terminal on your pc and open the directory in which you want to open the files.(use cd {directory} )
+- open the code editor in the same directory (vscode preferred).
+- then in the terminal of the same directory use -> mpn i to install all necessary packages.
+- Finally use npm start to run the local host.
+- To open type on the browser --> https://localhost:5000
+
 ## Authors
 
 -   **Sarthak S Kumar** - [Sarthak S Kumar](https://github.com/SarthakSKumar)
