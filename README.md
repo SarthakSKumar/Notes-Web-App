@@ -36,4 +36,7 @@ https://note-taking-web-app.herokuapp.com/
 -   **Satyam Kumar** - [Satyam Kumar](https://github.com/satyamksharma)
 -   **Sathish Kumar G** - [Sathish Kumar G](https://github.com/sathishkumarg5024)
 
+## Repo Contributors ❤️
+  <img src = "https://contrib.rocks/image?repo=SarthakSKumar/Notes-Web-App"/>
+
 ## CSE Sem-3 Web Technologies Project, November 2022
