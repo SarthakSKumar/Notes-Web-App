@@ -1,2 +1,3 @@
 .gitigore
 /node_modules
+.vercel

@@ -24,7 +24,7 @@ db.once("open", function () {
 });
 
 // Variables
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 
 // Routes
 const notesRoutes = require("./routes/notes");
@@ -43,3 +43,5 @@ app.listen(port, () => {
   console.log("-----------------------------------------");
   console.log("Express server running on port 5000 (Local Deployment PORT)");
 });
+
+module.exports = app;
